@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name ="brownian-motion-simulation-tool"
+version = "1.0.0"
+dependencies = [
+  
+  "matplotlib",
+]
+requires-python = ">=3.8"
+authors = [
+ { name = "S.B." }
+]
+description = "This script simulates 2D and 3D Brownian motion over multiple trials. step length,number of steps, number of trials are given by the user."
+keywords = ["random walk", "brownian motion", "simulation", "statistican mechanics" ]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+[project.scripts]
+brownian_motion_simulation ="brownian_motion_simulation.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/brownian_motion_simulation"]
