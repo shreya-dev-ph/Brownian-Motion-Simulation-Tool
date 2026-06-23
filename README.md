@@ -1,8 +1,7 @@
 # Brownian-Motion-Simulation-Tool
-# Brownian Motion Simulation
 
-A Python package for simulating and plotting Brownian motion in 2D and 3D.
 
+A Python package for simulating and plotting Brownian motion in 2D and 3D. It is based on random walk using Gaussian noise, and visualizes particle trajectories over time.
 The package can simulate multiple trials of random Brownian motion for a user-given number of steps and step length. It also provides plotting functions for visualizing the simulated paths.
 
 ## Features
