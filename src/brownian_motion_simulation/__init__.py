@@ -7,7 +7,7 @@ from .core import (
     plot_3d,
 )
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 __all__ = [
     "motion_2d",
